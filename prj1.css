@@ -1,0 +1,43 @@
+body{
+    background:url('game1.jpg');
+    padding: 0px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+.container{
+    border:2px ;
+    margin:200px 490px ;
+    padding :20px;
+    border-radius: 20px; 
+    width:30%;
+    text-align:center;
+}
+.btn{
+    width:80%;
+    height:35px;
+    display:block;
+    margin:20px auto;
+    border-radius:5px;
+    background:rgba(255,255,255,0.3);
+    border:none;
+    color:aliceblue;
+    padding:15px;
+    transition: .5s;
+    text-transform:capitalize;
+   
+}
+.head{
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.btn:hover{
+    background-color: white;
+    color:black;
+
+}
+.btn:active{
+    background-color: transparent;
+}

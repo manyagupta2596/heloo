@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+*:focus{
+    outline:none;
+}
+body{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:url('game2.jpg');
+    background-size:cover;
+    background-position: center;
+    font-family:sans-serif;
+}
+.form{
+    width:400px;
+    height:auto;
+    color:aliceblue;
+    font-family:sans-serif;
+}
+.heading{
+    text-transform:capitalize;
+    text-align:center;
+    font-size:80px;
+    font-weight:300;
+    margin-bottom: 50px;
+    
+    
+}
+input,
+.btn{
+    width:80%;
+    height:35px;
+    display:block;
+    margin:20px auto;
+    border-radius:5px;
+    background:rgba(255,255,255,0.3);
+    border:none;
+    color:aliceblue;
+    padding:15px;
+    transition: .5s;
+    text-transform:capitalize;
+}
+input::placeholder{
+    color:aliceblue;
+}
+input:focus,
+.btn:hover{
+    background:aliceblue;
+    color:#000;
+
+}
+input:focus::placeholder{
+    color:#000;
+}
+.btn{
+    width:auto;
+    padding:0 20px;
+    cursor:pointer;
+    margin:50px auto 0;
+}
+.link{
+    
+    text-align:center;
+    text-transform:capitalize;
+    text-decoration:none;
+    color:rgba(255,255,255,0.5);
+    display:block;
+    margin:30px auto;
+}
+.link:hover{
+    color:#fff;
+}
+.head{
+    text-align:center;
+    text-transform:capitalize;
+    font-size:60px;
+    font-weight: 500;
+}
+.btn:active{
+    background-color: transparent;
+}

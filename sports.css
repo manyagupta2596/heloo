@@ -1,0 +1,23 @@
+
+  
+  body{
+        position:relative;
+        width:100%;
+        min-height:100vh;
+        height:auto;
+        background:url('game2.jpg');
+        background-size:cover;
+        background-position: center;
+        background-repeat: repeat;
+        
+    }
+    .grid-container{
+        display:inline-grid;
+        color:white;
+        border:2px solid white;
+        padding:170px;
+        margin:60px;
+    }
+    
+
+
